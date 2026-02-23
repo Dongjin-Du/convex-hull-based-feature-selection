@@ -38,7 +38,7 @@ Each shortlisted subset is evaluated by cross-validating a user-supplied classif
 ## Installation
 
 ```bash
-pip install convex-feature-select
+pip install convex-hull-based-feature-select
 ```
 
 Or from source:
@@ -58,7 +58,7 @@ pip install -e ".[dev]"
 ```python
 from sklearn.datasets import load_breast_cancer
 from sklearn.ensemble import RandomForestClassifier
-from convex_feature_select import ConvexHullFeatureSelector
+from convex-hull-based-feature-select import ConvexHullFeatureSelector
 
 X, y = load_breast_cancer(return_X_y=True)
 
